@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  border-top: 1px solid black;
+  height: 100vh;
+  width: 100%;
+  background-image: url(/bgimg.jpg);
+  background-size: cover;
+}
+.navbar {
+  border-radius: 20px;
+  margin: 20px 5px 0 5px;
+  padding-bottom: 65px;
+  background-color: rgb(2, 0, 14);
+}
+.navbar img {
+  width: 55px;
+  padding: 5px 0 5px 5px;
+  float: left;
+  margin: 2px 0 0 5px;
+}
+.navbar ul {
+  overflow: autos;
+}
+.navbar li {
+  margin-top: 2px;
+  list-style: none;
+  float: left;
+  padding: 20px 5px 5px 30px;
+}
+.navbar input {
+  float: right;
+  margin-top: 14px;
+  margin-right: 30px;
+  padding: 8px 30px 5px 50px;
+  border-radius: 10px;
+  outline: none;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 5px 5px 5px 5px;
+}
+.navbar a:hover,
+.navbar li a.active {
+  background-color: white;
+  color: black;
+}
+.typing {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  margin: 100px 0px 0px 33rem;
+  background-color: thistle;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0ch;
+  animation: type 10s infinite;
+  border-right: 4px solid purple;
+}
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+  50% {
+    width: 24ch;
+  }
+}
+.content {
+  border-top: 10px solid black;
+  height: 45rem;
+  background-color: #36393e;
+}
+.content h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 4rem;
+  text-decoration: none;
+  color: black;
+  margin: 20px 0 0 39rem;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 17rem;
+  background-color: khaki;
+  animation: border 3s infinite;
+  animation-play-state: paused;
+}
+.content h1:hover {
+  animation-play-state: running;
+}
+@keyframes border {
+  0% {
+    width: 17rem;
+  }
+  50% {
+    width: 16ch;
+  }
+}
+.watch {
+  margin: 9rem 0 0 0;
+  padding: 0 0 19rem 0;
+  position: relative;
+}
+.watch img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.watch img:hover {
+}
+.series {
+  border: 2px solid white;
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  margin: 0 0 0 60px;
+}
+.hover {
+  width: 300px;
+  height: 300px;
+  background-size: 100%;
+  background-image: url(/series.jpg);
+  background-position: center;
+  transition: 1s;
+}
+.hover:hover {
+  background-size: 150%;
+  background-position: center;
+  filter: grayscale(60%);
+}
+
+#bottom {
+  padding: 24px 130px 222px 0px;
+  text-decoration: none;
+  color: white;
+  opacity: 0;
+}
+#bottom:hover {
+  opacity: 1;
+}
+
+.movie1 {
+  border: 2px solid white;
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  margin: 0 0 0 620px;
+}
+.movie1hover {
+  width: 300px;
+  height: 300px;
+  background-size: 100%;
+  background-image: url(/movie1.jpg);
+  background-position: center;
+  transition: 1s;
+}
+.movie1hover:hover {
+  background-size: 150%;
+  background-position: center;
+  filter: grayscale(60%);
+}
+#bottom1 {
+  padding: 24px 130px 222px 0px;
+  text-decoration: none;
+  color: white;
+  opacity: 0;
+}
+#bottom1:hover {
+  opacity: 1;
+}
+
+.movie2 {
+  border: 2px solid white;
+
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  margin: 0 0 0 12in;
+}
+.movie2hover {
+  width: 300px;
+  height: 300px;
+  background-size: 100%;
+  background-image: url(/movie2.jpg);
+  background-position: center;
+  transition: 1s;
+}
+.movie2hover:hover {
+  background-size: 150%;
+  background-position: center;
+  filter: grayscale(60%);
+}
+#bottom2 {
+  padding: 24px 130px 222px 0px;
+  text-decoration: none;
+  color: white;
+  opacity: 0;
+}
+#bottom2:hover {
+  opacity: 1;
+}
